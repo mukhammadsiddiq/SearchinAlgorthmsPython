@@ -34,6 +34,16 @@ def findPeak(array):
     return None
 
 
+def findPeakRecursive(array):
+    low = 0
+    high = len(array) - 1
+    def recursive(array, low, high):
+        mid = (low + high) // 2
+        left_mid = array[mid - 1] if mid - 1 >= 0 else float("-inf")
+        right_mid = array[mid + 1] if mid + 1 <= len(array) else float("inf")
+
+
+
 # Test cases
 a = [1, 2, 3, 4, 5, 4, 3, 2, 1]
 a1 = [1, 6, 5, 4, 3, 2, 1]
