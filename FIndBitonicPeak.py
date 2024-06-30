@@ -70,7 +70,7 @@ result5 = findPeakRecursive(a2)
 print(result)  # Should print the bitonic point for array 'a'
 print(result1)  # Should print the bitonic point for array 'a1'
 print(result2)  # Should print None for array 'a2' because its length is <= 3
-print(result3)  # Should print the bitonic point for array 'a'
-print(result4)  # Should print the bitonic point for array 'a1'
-print(result5)  # Should print None for array 'a2' because its length is <= 3
+print(result3)
+print(result4)
+print(result5)
 
